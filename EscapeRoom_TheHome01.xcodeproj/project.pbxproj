@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		0055181727A6CA1E001E8BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055181627A6CA1E001E8BE8 /* AppDelegate.swift */; };
 		0055181927A6CA1E001E8BE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055181827A6CA1E001E8BE8 /* SceneDelegate.swift */; };
-		0055181B27A6CA1E001E8BE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055181A27A6CA1E001E8BE8 /* ViewController.swift */; };
 		0055181E27A6CA1E001E8BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0055181C27A6CA1E001E8BE8 /* Main.storyboard */; };
 		0055182127A6CA1E001E8BE8 /* EscapeRoom_TheHome01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0055181F27A6CA1E001E8BE8 /* EscapeRoom_TheHome01.xcdatamodeld */; };
 		0055182327A6CA21001E8BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0055182227A6CA21001E8BE8 /* Assets.xcassets */; };
 		0055182627A6CA21001E8BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0055182427A6CA21001E8BE8 /* LaunchScreen.storyboard */; };
+		0055183927AAA2BA001E8BE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055183827AAA2BA001E8BE8 /* LoginViewController.swift */; };
+		0055183B27AAA31A001E8BE8 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055183A27AAA31A001E8BE8 /* RegistrationViewController.swift */; };
+		0055183D27ABC2A7001E8BE8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055183C27ABC2A7001E8BE8 /* SettingsViewController.swift */; };
+		0055183F27ABC349001E8BE8 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055183E27ABC349001E8BE8 /* LobbyViewController.swift */; };
+		0055184127ABC4DF001E8BE8 /* LivingRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055184027ABC4DF001E8BE8 /* LivingRoomViewController.swift */; };
+		0055184327ABC510001E8BE8 /* KitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055184227ABC510001E8BE8 /* KitchenViewController.swift */; };
+		0055184527ABC540001E8BE8 /* PlayRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055184427ABC540001E8BE8 /* PlayRoomViewController.swift */; };
+		0055184727ABC57F001E8BE8 /* ToiletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055184627ABC57F001E8BE8 /* ToiletViewController.swift */; };
+		00BF9D6127C272FF009F6B5C /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BF9D6027C272FF009F6B5C /* SaveViewController.swift */; };
+		00BF9D6527D3550B009F6B5C /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BF9D6427D3550A009F6B5C /* RoomViewController.swift */; };
+		00BF9D6727D36A63009F6B5C /* AlertController+Img.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BF9D6627D36A63009F6B5C /* AlertController+Img.swift */; };
+		00D836E627D68A8800609752 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D836E527D68A8800609752 /* NavigationController.swift */; };
+		00D836E827D7B75600609752 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D836E727D7B75600609752 /* UIImage+Resize.swift */; };
+		00D836EA27D89ED500609752 /* StoryText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D836E927D89ED400609752 /* StoryText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0055181327A6CA1E001E8BE8 /* EscapeRoom_TheHome01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscapeRoom_TheHome01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0055181627A6CA1E001E8BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0055181827A6CA1E001E8BE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0055181A27A6CA1E001E8BE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0055181D27A6CA1E001E8BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0055182027A6CA1E001E8BE8 /* EscapeRoom_TheHome01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EscapeRoom_TheHome01.xcdatamodel; sourceTree = "<group>"; };
 		0055182227A6CA21001E8BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0055182527A6CA21001E8BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0055182727A6CA21001E8BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0055183827AAA2BA001E8BE8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0055183A27AAA31A001E8BE8 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		0055183C27ABC2A7001E8BE8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0055183E27ABC349001E8BE8 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		0055184027ABC4DF001E8BE8 /* LivingRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomViewController.swift; sourceTree = "<group>"; };
+		0055184227ABC510001E8BE8 /* KitchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewController.swift; sourceTree = "<group>"; };
+		0055184427ABC540001E8BE8 /* PlayRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRoomViewController.swift; sourceTree = "<group>"; };
+		0055184627ABC57F001E8BE8 /* ToiletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletViewController.swift; sourceTree = "<group>"; };
+		00BF9D6027C272FF009F6B5C /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		00BF9D6427D3550A009F6B5C /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		00BF9D6627D36A63009F6B5C /* AlertController+Img.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+Img.swift"; sourceTree = "<group>"; };
+		00D836E527D68A8800609752 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		00D836E727D7B75600609752 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		00D836E927D89ED400609752 /* StoryText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +84,101 @@
 		0055181527A6CA1E001E8BE8 /* EscapeRoom_TheHome01 */ = {
 			isa = PBXGroup;
 			children = (
-				0055181627A6CA1E001E8BE8 /* AppDelegate.swift */,
-				0055181827A6CA1E001E8BE8 /* SceneDelegate.swift */,
-				0055181A27A6CA1E001E8BE8 /* ViewController.swift */,
-				0055181C27A6CA1E001E8BE8 /* Main.storyboard */,
-				0055182227A6CA21001E8BE8 /* Assets.xcassets */,
-				0055182427A6CA21001E8BE8 /* LaunchScreen.storyboard */,
+				0055183227A9877F001E8BE8 /* Resources */,
+				0055182D27A6CA7B001E8BE8 /* Model */,
+				0055182E27A6CA84001E8BE8 /* Views */,
+				0055183027A98678001E8BE8 /* Controllers */,
 				0055182727A6CA21001E8BE8 /* Info.plist */,
 				0055181F27A6CA1E001E8BE8 /* EscapeRoom_TheHome01.xcdatamodeld */,
 			);
 			path = EscapeRoom_TheHome01;
+			sourceTree = "<group>";
+		};
+		0055182D27A6CA7B001E8BE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00D836E927D89ED400609752 /* StoryText.swift */,
+				00BF9D6627D36A63009F6B5C /* AlertController+Img.swift */,
+				00D836E727D7B75600609752 /* UIImage+Resize.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0055182E27A6CA84001E8BE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0055182227A6CA21001E8BE8 /* Assets.xcassets */,
+				0055183327AAA0D7001E8BE8 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0055183027A98678001E8BE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0055183427AAA144001E8BE8 /* Other */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0055183227A9877F001E8BE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0055181627A6CA1E001E8BE8 /* AppDelegate.swift */,
+				0055181827A6CA1E001E8BE8 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0055183327AAA0D7001E8BE8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0055181C27A6CA1E001E8BE8 /* Main.storyboard */,
+				0055182427A6CA21001E8BE8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0055183427AAA144001E8BE8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0055183527AAA154001E8BE8 /* Onboarding */,
+				0055183627AAA1F6001E8BE8 /* General */,
+				0055183727AAA222001E8BE8 /* Core Tabs BaSho */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0055183527AAA154001E8BE8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0055183E27ABC349001E8BE8 /* LobbyViewController.swift */,
+				0055183827AAA2BA001E8BE8 /* LoginViewController.swift */,
+				0055183A27AAA31A001E8BE8 /* RegistrationViewController.swift */,
+				00D836E527D68A8800609752 /* NavigationController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0055183627AAA1F6001E8BE8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				00BF9D6027C272FF009F6B5C /* SaveViewController.swift */,
+				0055183C27ABC2A7001E8BE8 /* SettingsViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		0055183727AAA222001E8BE8 /* Core Tabs BaSho */ = {
+			isa = PBXGroup;
+			children = (
+				0055184027ABC4DF001E8BE8 /* LivingRoomViewController.swift */,
+				0055184227ABC510001E8BE8 /* KitchenViewController.swift */,
+				00BF9D6427D3550A009F6B5C /* RoomViewController.swift */,
+				0055184427ABC540001E8BE8 /* PlayRoomViewController.swift */,
+				0055184627ABC57F001E8BE8 /* ToiletViewController.swift */,
+			);
+			path = "Core Tabs BaSho";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +252,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0055181B27A6CA1E001E8BE8 /* ViewController.swift in Sources */,
+				0055183927AAA2BA001E8BE8 /* LoginViewController.swift in Sources */,
 				0055181727A6CA1E001E8BE8 /* AppDelegate.swift in Sources */,
 				0055181927A6CA1E001E8BE8 /* SceneDelegate.swift in Sources */,
+				0055184527ABC540001E8BE8 /* PlayRoomViewController.swift in Sources */,
+				0055184327ABC510001E8BE8 /* KitchenViewController.swift in Sources */,
+				00D836EA27D89ED500609752 /* StoryText.swift in Sources */,
 				0055182127A6CA1E001E8BE8 /* EscapeRoom_TheHome01.xcdatamodeld in Sources */,
+				00BF9D6127C272FF009F6B5C /* SaveViewController.swift in Sources */,
+				0055184727ABC57F001E8BE8 /* ToiletViewController.swift in Sources */,
+				00D836E627D68A8800609752 /* NavigationController.swift in Sources */,
+				00BF9D6727D36A63009F6B5C /* AlertController+Img.swift in Sources */,
+				00BF9D6527D3550B009F6B5C /* RoomViewController.swift in Sources */,
+				0055183F27ABC349001E8BE8 /* LobbyViewController.swift in Sources */,
+				0055183B27AAA31A001E8BE8 /* RegistrationViewController.swift in Sources */,
+				00D836E827D7B75600609752 /* UIImage+Resize.swift in Sources */,
+				0055184127ABC4DF001E8BE8 /* LivingRoomViewController.swift in Sources */,
+				0055183D27ABC2A7001E8BE8 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,13 +423,16 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Lydia-LL.EscapeRoom-TheHome01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -327,13 +454,16 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Lydia-LL.EscapeRoom-TheHome01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
